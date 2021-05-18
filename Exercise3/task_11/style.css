@@ -1,0 +1,20 @@
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+}
+
+p {
+  width: 50px;
+  height: 50px;
+  background-color: #00f;
+}
+
+.first {
+  margin-left: 50%;
+  margin-bottom: 0;
+}
+
+.second {
+  margin: 0;
+}

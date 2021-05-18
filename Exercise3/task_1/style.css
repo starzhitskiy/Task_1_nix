@@ -1,0 +1,15 @@
+html {
+  background-image: url(./1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #00ffff;
+  color: brown;
+  color: rgb(255, 74, 79);
+  color: hsl(244, 53%, 36%);
+  color: rgba(255, 0, 255, 0.5);
+}

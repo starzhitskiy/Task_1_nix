@@ -1,0 +1,11 @@
+p {
+  letter-spacing: 20px;
+}
+
+.first {
+  letter-spacing: 5px;
+}
+
+.second {
+  box-shadow: 29px 16px 40px 16px rgba(34, 60, 80, 0.58);
+}

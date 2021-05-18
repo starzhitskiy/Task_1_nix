@@ -1,0 +1,7 @@
+.div {
+  border: 4px solid #f00;
+}
+p {
+  border: double;
+  margin: -5px;
+}

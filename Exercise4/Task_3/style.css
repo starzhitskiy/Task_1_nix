@@ -1,0 +1,32 @@
+.one {
+  width: 20%;
+  float: left;
+}
+.two {
+  float: right;
+  width: 80%;
+}
+.three {
+  width: 20%;
+  float: right;
+}
+.four {
+  height: 100%;
+  float: left;
+  width: 80%;
+}
+.five {
+  width: 33.4%;
+  float: right;
+}
+.six {
+  width: 33.3%;
+  float: left;
+}
+.seven {
+  width: 33.3%;
+  float: left;
+}
+div{
+  color: #fff;
+}

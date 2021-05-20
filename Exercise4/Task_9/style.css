@@ -1,0 +1,17 @@
+li {
+  list-style-type: none;
+  width: max-content;
+}
+
+.hide {
+  display: none;
+}
+
+.hover:hover .hide{
+  display: inline;
+}
+
+.hid {
+  padding-left: 40px;
+  background-color: red;
+}

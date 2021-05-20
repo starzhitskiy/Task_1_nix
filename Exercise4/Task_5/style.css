@@ -1,0 +1,16 @@
+.one {
+  display: grid;
+}
+.text1, .text3, .text5 {
+  height: max-content;
+  width: max-content;
+}
+.text8 {
+  position: absolute;
+  left: 55px;
+}
+.text9 {
+  position: absolute;
+  left: 114px;
+  height: max-content;
+}

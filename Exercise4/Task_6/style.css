@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.aside {
+  border: dotted 1px #000;
+  width: 30%;
+  padding: 10px;
+}
+.main {
+  border: solid 1px #000;
+  margin-left: 30%;
+  padding: 10px;
+}

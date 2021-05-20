@@ -1,0 +1,32 @@
+.zero {
+  height: 100%;
+  position: relative;
+}
+
+.one,
+.two {
+  background-color: #f00;
+}
+
+.one,
+.two,
+.three {
+  width: 33.3%;
+}
+
+.one {
+  position: absolute;
+  height: 54px;
+}
+
+.two {
+  position: absolute;
+  left: 66.6%;
+  height: 54px;
+  /* Когда задаю высоту 100% исчезает цвет. Пожалуйста объясните почему так */
+}
+
+.three {
+  position: absolute;
+  left: 33.3%;
+}

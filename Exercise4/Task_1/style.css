@@ -1,0 +1,18 @@
+body {
+  padding-right: 45%;
+}
+.zero {
+  border: 1px solid #000;
+}
+
+.one, .three, .five {
+float: right;
+}
+
+.two, .four, .six {
+float: right;
+}
+
+.four {
+  margin-right: 40px;
+}

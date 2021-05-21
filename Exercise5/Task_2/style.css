@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 400px) {
+  .item1 {
+    width: 30%;
+  }
+  .item2 {
+  }
+  .item3 {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .item {
+    flex-grow: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .item1, .item2 {
+    width: 20%;
+  }
+  .item3, .item4 {
+    width: 30%;
+  }
+}

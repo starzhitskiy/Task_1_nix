@@ -1,0 +1,28 @@
+.wrap {
+  border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 800px;
+}
+.div {
+  border: 1px solid #000;
+
+  margin: 20px;
+}
+.flex1 {
+  align-self: flex-end;
+}
+.flex2 {
+  align-self: center;
+}
+.flex3 {
+  align-self: flex-start;
+}
+.flex4 {
+  order: 1;
+  align-self: flex-end;
+}
+.flex5 {
+  align-self: center;
+}

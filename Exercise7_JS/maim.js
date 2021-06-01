@@ -188,9 +188,7 @@
 // let num1 = 5;
 // let num2 = 3;
 // let num3 = -4;
-
 // let positiveNumber = 0;
-
 // if (num1 > 0) {
 //   positiveNumber++;
 // }
@@ -249,7 +247,7 @@
 // const Number2 = ( b > a ) ? console.log(a) : console.log(b);
 
 // Task 33
-// Что такое переменные вещественного типа??? 
+// Что такое переменные вещественного типа???
 
 // Task 34
 // let A;

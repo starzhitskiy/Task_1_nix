@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="quiz-over-modal">
+        <div class="content">
+          <h1>Твой результат</h1>
+          <p>Ты ответил на
+            <span id="correct-answer"></span> из
+            <span id="number-of-all-questions-2"></span> вопроса
+          </p>
+          <button id="btn-try-again">Попробуй снова</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <button class="help contact" type="button">
+            <img class="help__phone" src="./phone.png" alt="phone">
+          </button>
+          <button class="help fifty" type="button">
+            <img class="help__phone" src="./followers.png" alt="50">
+          </button>
+        </div>
+        <div class="quiz-container">
+          <div class="question-number">
+            <h3>Вопрос
+              <span id="number-of-question"></span>
+              из
+              <span id="number-of-all-question"></span>
+            </h3>
+          </div>
+
+          <div id="question"></div>
+          <div class="options">
+            <div data-id="0" class="option option1"></div>
+            <div data-id="1" class="option option2"></div>
+            <div data-id="2" class="option option3"></div>
+            <div data-id="3" class="option option4"></div>
+          </div>
+          <div class="button">
+            <div id="btn-next">Next</div>
+          </div>
+        </div>
+        <div id="answers-tracker">
+        </div>
+        <div class="money">
+          <span class="bonus">$1 MILLION</span>
+          <span class="color">$500.000</span>
+          <span class="color">$250.000</span>
+          <span class="color">$125.000</span>
+          <span class="color">$64.000</span>
+          <span class="bonus">$32.000</span>
+          <span class="color">$16.000</span>
+          <span class="color">$8.000</span>
+          <span class="color">$4.000</span>
+          <span class="color">$2.000</span>
+          <span class="bonus">$1.000</span>
+          <span class="color">$500</span>
+          <span class="color">$300</span>
+          <span class="color">$200</span>
+          <span class="color">$100</span>
+        </div>
+      </div>
+    </main>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
